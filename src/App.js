@@ -203,6 +203,15 @@ export default function App() {
         <NumResults movies={movies}></NumResults>
       </NavBar>
       <Main>
+        {/* <Box element={<MovieList movies={movies}></MovieList>}></Box>
+        <Box
+          element={
+            <>
+              <WatchedSummary watched={watched}></WatchedSummary>
+              <WatchedMovieList watched={watched}></WatchedMovieList>
+            </>
+          }
+        ></Box> */}
         <Box>
           <MovieList movies={movies}></MovieList>
         </Box>
