@@ -1,15 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import "./index.css";
-import App from "./App";
+import "./index.css";
+import App from "./App-v3";
 import StarRating from "./StarRating";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <StarRating maxRating={5}></StarRating>
+    <App />
+    {/* <StarRating maxRating={5}></StarRating>
     <StarRating maxRating={10} defaultRating={3}></StarRating>
-    <StarRating></StarRating>
+    <StarRating></StarRating> */}
   </React.StrictMode>
 );
